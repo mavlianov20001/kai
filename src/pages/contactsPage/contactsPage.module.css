@@ -1,0 +1,49 @@
+.contacts_block {
+    width: 820px;
+    height: 370px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 70px;
+    padding-top: 75px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contacts_block .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.phones_block {
+    margin-top: 53px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phones title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.phones .content {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #038C08;
+}
+
+.phones + .phones {
+    margin-left: 222px;
+}
+
+.social {
+    margin-top: 44px;
+}
+
+.social a + a {
+    margin-left: 36px;
+}

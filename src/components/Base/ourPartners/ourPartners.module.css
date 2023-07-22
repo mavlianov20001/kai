@@ -1,0 +1,25 @@
+.box {
+    width: 871px;
+    height: 236px;
+    margin: 142px auto 0;
+}
+
+.box h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #392250;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 51px;
+}
+
+.glovo {
+    margin-bottom: 22px;
+}
+

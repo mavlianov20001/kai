@@ -1,0 +1,39 @@
+.footer {
+    background-color: #f9f9f9;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo_social {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.footer_logo_social .social_item + .social_item{
+    margin-left: 35px;
+}
+
+.address, .tel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tel {
+    text-align: right;
+    padding: 0 0 0 10px;
+}

@@ -1,0 +1,135 @@
+.reg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #392250;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    width: 455px;
+    height: 634px;
+    background-color: #F9EFDA;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.38);
+    border-radius: 30px;
+    padding: 80px 85px;
+}
+
+.card > p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card .text {
+    margin-top: 18px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.inputBox {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fdfdfe;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+
+.inputBox input:focus {
+    color: #000000;
+}
+
+::-webkit-input-placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+
+.inputBox input {
+    margin-left: 7px;
+    padding: 10px 10px 10px 0;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.inputBox:focus-within {
+    outline: 3px solid #9eb0f8;
+}
+
+
+.img_icon {
+    margin-left: 10px;
+}
+
+.eyeslashinput {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.inputBox .eyeslashinput,
+.inputBox .img_icon {
+    width: 12px;
+    height: 12px;
+}
+
+
+.input .eyeslashinput {
+    right: 10px;
+}
+
+.input .img_icon {
+    left: 10px;
+}
+
+
+.signup {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup button {
+    background: none;
+    padding: 12px 10px;
+    border: 1px solid #392250;
+    border-radius: 11px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #392250;
+}
+
+
+.footer {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 28px 0;
+}
+
+.footer > p {
+    margin-bottom: 50px;
+}
+
+.footer > p > a {
+    margin-left: 80px;
+}
+
+.footer a {
+    text-decoration-line: underline;
+}
+

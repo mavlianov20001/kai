@@ -1,0 +1,153 @@
+.Main {
+    padding: 28px 0 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Cont {
+    color: #8D8D8D;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.Banner {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.imageContainer {
+    position: absolute;
+}
+
+.Banner button {
+    color: white;
+    background: #28CA00;
+    border: none;
+    position: absolute;
+    left: 735px;
+    top: 180px;
+    font-size: 20px;
+    width: 221px;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.Text {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+.Text h4 {
+    color: #392250;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 115.5%;
+}
+
+.Text p {
+    color: #595959;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.DostavkaButton {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+}
+
+.Express {
+    border: none;
+    width: 388px;
+    height: 127px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115.5%;
+
+    background: #F0DCB7;
+    box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.Dostavka24 {
+    border: none;
+    width: 388px;
+    height: 127px;
+    background: #FEBDA1;
+    box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115.5%;
+}
+
+.ZakazForPhone {
+    border: none;
+    width: 388px;
+    height: 127px;
+    background: #F0DCB7;
+    box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115.5%;
+}
+
+
+.OPLATA {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+
+.OPLATA h4 {
+    color: #392250;
+}
+
+.OPLATA p {
+    color: #595959;
+}
+
+.Zakaz {
+    display: flex;
+    position: relative;
+    top: 115px;
+}
+
+.Zakaz button {
+    border: none;
+    top: 160px;
+    left: 800px;
+    position: absolute;
+    width: 192px;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 21px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    color: #392250;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.CircleCard {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 115px;
+}

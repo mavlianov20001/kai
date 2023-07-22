@@ -1,0 +1,24 @@
+.faq {
+    display: flex;
+    width: 508px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+.faq_title {
+    margin: 0;
+    padding: 16px 0 16px 22px;
+    width: 508px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115.5%;
+    color: #392250;
+}
+
+.faq > img {
+    padding-right: 20px;
+}

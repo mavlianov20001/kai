@@ -1,0 +1,223 @@
+
+.form_search {
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+}
+
+.form_search button {
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 22px;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+.form_search .search {
+    border: none;
+    height: 55px;
+    width: 695px;
+    text-align: left;
+    background: #EBEBEB;
+    border-radius: 12px;
+    padding: 12px 20px 12px 54px;
+}
+
+
+.job_links {
+    margin-top: 28px;
+}
+.job_links p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8D8D8D;
+}
+.job_links button {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8D8D8D;
+    border: medium none;
+    background-image: none;
+    float: left;
+    background-color: transparent;
+}
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+.vacancy_card {
+    padding: 50px 0 0 60px;
+    width: 1200px;
+    height: 361px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #F8F1D5;
+    border-radius: 30px;
+}
+.vacancy_card p {
+    width: 900px;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.vacancy_card button {
+    border: 0;
+    width: 210px;
+    height: 46px;
+    background: #FFCC3D;
+    border-radius: 11px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.job_top {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 38px;
+}
+.job_name {
+    width: 580px;
+    height: 50px;
+    margin-right: 370px;
+}
+/*Vacancies more info*/
+
+.typeJob {
+    width: 72px;
+    height: 38px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    padding: 6px;
+    background: #EBEBEB;
+    border-radius: 11px;
+    text-align: center;
+}
+.jobTitle h1{
+    width: 580px;
+    height: 70px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #392250;
+}
+.jobTitle p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #392250;
+}
+.jobConditions h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 50px;
+
+    color: #392250;
+}
+.jobConditions ul li{
+    padding: 17px 11px;
+    width: 497px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115.5%;
+    color: #392250;
+}
+.jobProfile button {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 210px;
+    height: 46px;
+    background: #FFCC3D;
+    border-radius: 11px;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 75px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+.jobProfile p {
+    width: 914px;
+    height: 107px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.jobDuty h3 {
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #392250;
+}
+.jobDuty ul{
+    margin-bottom: 60px;
+
+}
+.jobDuty ul li{
+    width: 1044px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.jobSkills h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.skillsInner {
+    display: flex;
+}
+
+.skillsBut {
+    text-align: center;
+    padding: 10px 16px;
+    height: 38px;
+    background: #EBEBEB;
+    border-radius: 11px;
+    margin-right: 50px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #392250;
+}
+.address {
+    margin-top: 60px;
+    margin-bottom: 86px;
+}
+.address p{
+    margin-bottom: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}

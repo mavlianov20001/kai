@@ -1,0 +1,14 @@
+.main {
+    margin: 18px 0;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+}
+.way {
+    padding: 10px;
+    color: #8D8D8D;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    background: none;
+    border: none;
+}

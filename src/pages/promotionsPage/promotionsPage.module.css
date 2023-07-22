@@ -1,0 +1,12 @@
+.promotions {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info {
+    margin-left: 64px;
+    width: 900px;
+}
+

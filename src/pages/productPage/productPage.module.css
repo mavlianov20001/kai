@@ -1,0 +1,131 @@
+.loading {
+    color: #ff0073;
+}
+
+.product {
+    width: 954px;
+    height: 628px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: flex-start;
+    margin: 50px;
+    font-family: Raleway, sans-serif;
+}
+
+.product .product_image{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_favorites {
+    position: absolute;
+    display: block;
+    right: 42px;
+    top: 42px;
+    width: 26px;
+    height: 26px;
+    background-image: url("../../assets/images/icons/icon_heart24.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+.icon_favorites.active,
+.icon_favorites:hover {
+    background-position: -36px center;
+}
+
+.product_image .image{
+    width: 300px;
+    height: 307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_image button {
+    top: 307px;
+    width: 222px;
+    height: 49px;
+    background-color: #FFCC3D;
+    border-radius: 11px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    border: none;
+}
+
+
+
+.product .product_info{
+    padding-right: 110px;
+}
+.product_info .name{
+    margin-top: 39px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.product .weight_volume{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+}
+
+.product_price {
+    margin: 13px 0;
+}
+
+.product_info_Discount span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.product_price .product_info_Discount .discount {
+    color: #FF0D0D;
+    margin-bottom: 1px;
+
+}
+
+
+.product_info_Discount .price {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.product_price .price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.header {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #676666;
+}
+.info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 167.9%;
+    letter-spacing: 0.055em;
+    color: #000000;
+}
+

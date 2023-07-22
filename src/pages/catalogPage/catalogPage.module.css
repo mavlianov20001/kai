@@ -1,0 +1,82 @@
+.catalog {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 281px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    margin-left: 64px;
+    width: 900px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.loading {
+    color: #FF0D0D;
+    font-size: 100px;
+}
+
+.Categories li {
+    display: flex;
+    position: relative;
+    left: 40px;
+    width: 230px;
+    border-bottom: 2px solid rgb(217 217 217);
+}
+
+.CatalogMain li a {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 0 11px 11px 0;
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0 15px;
+    color: black;
+}
+
+.CatalogMain .Categories li img {
+    margin-left: auto;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 232px;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+    top: 3px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: none;
+    border: none;
+}
+
+.pagination a {
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}

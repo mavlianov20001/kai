@@ -1,0 +1,158 @@
+.main {
+    padding: 28px 0 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    position: relative;
+    background-color: #C7B4FF;
+    padding: 60px 0 150px 80px;
+    border-radius: 30px;
+    text-align: start;
+    /*overflow: hidden;*/
+}
+
+.banner h2 {
+    margin-bottom: 60px;
+    max-width: 580px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bannerBlock {
+    max-width: 715px;
+    padding: 12px 0 12px 45px;
+    background: white;
+    border-radius: 11px;
+}
+
+.main span {
+    display: block;
+    max-width: 530px;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.bannerCircle {
+    top: 99px;
+    right: 57px;
+    background-color: white;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+}
+
+.bannerLine {
+    top: 157px;
+    left: -43px;
+}
+
+.bannerImg {
+    position: absolute;
+    top: 15px;
+    right: -27px;
+}
+
+.tasty {
+    padding: 160px 0 210px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.tastyBlock {
+    position: relative;
+    padding: 60px 0 0 70px;
+    width: 100%;
+    max-width: 505px;
+    min-height: 580px;
+    background: #F8F1D5;
+    border-radius: 30px;
+}
+
+.tastyBlock span {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.tastyCircle {
+    margin-top: 23px;
+    width: 383px;
+    height: 383px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.tastyImg {
+    top: 207px;
+    left: 11px;
+}
+
+.tastyLeft {
+    width: 588px;
+    height: 385px;
+    display: flex;
+    row-gap: 46px;
+}
+
+
+.tastyLeft p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.tastyLeft {
+    display: flex;
+    flex-direction: column;
+    margin-left: 104px;
+}
+
+.tastyTitle {
+    width: 538px;
+    display: flex;
+    column-gap: 39px;
+    align-items: center;
+}
+
+.parag {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.005em;
+    color: #392250;
+}
+
+.tit {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #392250;
+}
+
+.tastyTitler {
+    width: 538px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.tastyTitlef {
+    width: 538px;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.parag strong {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.005em;
+    color: #392250;
+}

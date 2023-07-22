@@ -1,0 +1,57 @@
+.wrapper__history {
+    width: 902px;
+    height: 744px;
+    display: flex;
+    margin:  0 auto;
+
+}
+.wrapper__history {
+    margin-top: 300px;
+}
+
+.wrapper__history__one {
+    width: 302px;
+    height: 744px;
+    background: #F7F7F7;
+    border-radius: 30px;
+
+}
+.wrapper__history__two {
+    width: 600px;
+    height: 744px;
+    margin-top: 105px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.wrapper__history__two p {
+    color: #1F1B1BC4;
+
+}
+.wrapper__catalog__history {
+    text-align: center;
+    background: #FFCC3D;
+    border-radius: 11px;
+    width: 254px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 33px;
+}
+.purchase__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 33px;
+}

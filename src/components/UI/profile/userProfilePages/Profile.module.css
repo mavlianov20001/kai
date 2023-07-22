@@ -1,0 +1,79 @@
+
+.wrapper__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 33px;
+}
+.wrapper {
+    width: 902px;
+    height: 744px;
+    display: flex;
+    margin:  0 auto;
+}
+
+.wrapper_one {
+    width: 302px;
+    height: 744px;
+    background: #F7F7F7;
+    border-radius: 30px;
+
+}
+.wrapper__icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 144px;
+    align-items: center;
+}
+.wrapper__icon p {
+    margin-left: 13px;
+    color: #CCCCCC;
+
+}
+.wrapper__text h1 {
+    margin-left: 50px;
+}
+
+
+.wrapper__text p {
+    margin-left: 54px;
+
+
+}.wrapper_one h1 {
+     margin-top: 34px;
+ }
+.wrapper_two {
+    width: 600px;
+    height: 744px;
+
+}
+
+
+
+.wrapper_two h3 {
+
+    margin-left: 180px;
+    margin-top: 139px;
+}
+.wrapper_two h2 {
+
+    height: 19px;
+}
+.wrapper__register{
+    background: #FFCC3D;
+    border-radius: 11px;
+    width: 254px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.wrapper__register {
+    margin-left: 172px;
+}
+
+
+
+

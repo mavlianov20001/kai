@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: auto 0;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+.page_item {
+}
+
+
+.page_link {
+    padding: 10px;
+}

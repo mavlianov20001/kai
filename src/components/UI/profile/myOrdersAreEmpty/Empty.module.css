@@ -1,0 +1,59 @@
+.wrapper__orders {
+    width: 902px;
+    height: 744px;
+    display: flex;
+    margin:  0 auto;
+
+}
+.wrapper__orders {
+    margin-top: 300px;
+}
+
+.wrapperOrders__one {
+    width: 302px;
+    height: 744px;
+    background: #F7F7F7;
+    border-radius: 30px;
+
+}
+.wrapperOrders__two {
+    width: 600px;
+    height: 744px;
+    margin-top: 105px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper__catalog {
+    text-align: center;
+    background: #FFCC3D;
+    border-radius: 11px;
+    width: 254px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order__text {
+    margin-left: 55px;
+}
+.orders_text p {
+    margin-left: 13px;
+    color: #CCCCCC;
+}
+.orders_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 111px;
+    align-items: center;
+}
+
+.order__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 33px;
+}

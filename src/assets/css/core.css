@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*text-align: center;*/
+}
+
+html, body {
+    font: 14px 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+
+}
+
+.cont {
+    width: 1200px;
+    margin: 0 auto;
+}
+.abs {
+    position: absolute;
+}

@@ -1,0 +1,4 @@
+.new_product {
+    display: flex;
+    flex-wrap: wrap;
+}
